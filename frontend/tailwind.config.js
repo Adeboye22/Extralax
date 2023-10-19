@@ -27,4 +27,8 @@ export default {
         'hero-image': "url('./assets/Img1.png')",
         'footer-texture': "url('/img/footer-texture.png')",
       }
- 
+    },
+  },
+  plugins: [],
+}
+

@@ -41,3 +41,8 @@ const Homepage = () => {
                     </div>
                 </section>
             </main>
+        </div>
+    )
+}
+
+export default Homepage;

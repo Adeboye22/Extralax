@@ -5,4 +5,7 @@ const Services = () => {
         <div className='bg-white min-h-screen'>
             <span>A boy</span>
         </div>
-  
+    )
+}
+
+export default Services;

@@ -15,4 +15,4 @@ const Mission = () =>{
     )
 }
 
-export de
+export default Mission;

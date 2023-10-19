@@ -17,4 +17,4 @@ const Vision = () => {
     )
 }
 
-export d
+export default Vision;

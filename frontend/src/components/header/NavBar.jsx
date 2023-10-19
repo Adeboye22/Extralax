@@ -5,15 +5,28 @@ import Icon from '../../assets/Icon.png';
 import Logo from '../../assets/Logo.png';
 
 const NavLinks = () => {
+
+    const  activeNav = ({isActive}) => {
+        return{
+            border: isActive? "solid":"hidden",
+            paddingLeft: isActive? 25:0,
+            paddingRight: isActive? 25:0,
+            paddingTop: isActive? 5:0,
+            paddingBottom: isActive? 5:0,
+            background: isActive? '#FFC501': 'none',
+            borderRadius: isActive? 5:0,
+            fontWeight: isActive? 700:400
+        }
+    }
     return (
         <div>
             <nav className='sm:flex sm:flex-col sm:justify-center sm:w-screen sm:h-60 sm:justify-center md:justify-center md:flex md:w-screen md:h-60 md:text-xl flex flex-row justify-between bg-orange h-24'>
                 <img src={Logo} alt="" className='sm:hidden md:hidden h-56 w-56 mx-8 -mt-16 '/>
-                <ul className='md:flex-col md:text-center text-green flex flex-row gap-0 mx-20 my-8 text-altBlack'>
-                    <li className='sm:bg-white'><NavLink to="/">Home</NavLink></li>
-                    <li className='sm:bg-white'><NavLink to="services">Services</NavLink></li>
-                    <li><NavLink to="about">About Us</NavLink></li>
-                    <li><NavLink to="contact">Contact Us</NavLink></li>
+                <ul className='sm:bg-white sm:p-4 sm:rounded md:flex-col md:text-center text-green flex flex-row gap-2 mx-20 my-8 text-altBlack'>
+                    <li><NavLink to="/" style={activeNav}>Home</NavLink></li>
+                    <li><NavLink to="services" style={activeNav}>Services</NavLink></li>
+                    <li><NavLink to="about" style={activeNav}>About Us</NavLink></li>
+                    <li><NavLink to="contact" style={activeNav}>Contact Us</NavLink></li>
                 </ul>
             </nav>
         </div>
@@ -40,4 +53,9 @@ const NavBar = () => {
             </div>
             {isOpen &&
             <NavLinks/>
-    
+            }
+        </div>
+    )
+}
+
+export default NavBar;
