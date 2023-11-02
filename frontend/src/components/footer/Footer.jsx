@@ -6,7 +6,7 @@ const Footer = () => {
             {/* Location */}
             <div className='pb-4'>      
                 <h1 className='text-xl font-bold pb-2'>Office Location:</h1>
-                <span className='text-lg'>We are located at No.1 Ericsson Arubayi close, Golden Kite bus-stop, off Refinery road, Effurun, Warri city, Delta state.</span>
+                <span className='text-lg'>No.1 Ericsson Arubayi close, Golden Kite bus-stop, off Refinery road, Effurun, Warri city, Delta state.</span>
             </div>
             <div>
                 <h1 className='text-xl font-bold pb-2'>Contact Us:</h1>

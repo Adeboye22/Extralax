@@ -25,7 +25,7 @@ const NavLinks = () => {
                 <ul className='sm:bg-white sm:p-4 sm:rounded md:flex-col md:text-center text-green flex flex-row gap-2 mx-20 my-8 text-altBlack'>
                     <li><NavLink to="/" style={activeNav}>Home</NavLink></li>
                     <li><NavLink to="services" style={activeNav}>Services</NavLink></li>
-                    <li><NavLink to="about" style={activeNav}>About Us</NavLink></li>
+                    <li><NavLink to="portfolio" style={activeNav}>Portfolio</NavLink></li>
                     <li><NavLink to="contact" style={activeNav}>Contact Us</NavLink></li>
                 </ul>
             </nav>
