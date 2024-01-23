@@ -6,7 +6,7 @@ import Img6 from '../../assets/Img6.jpg';
 
 const Services = () => {
     return (
-        <div className='sm:px-8 flex flex-col gap-12 bg-white text-lg text-altBlack'>
+        <div className='sm:px-8 flex flex-col gap-12 bg-white text-xl text-altBlack'>
             <section className='pt-8 text-justify'>
                 <span>
                     <strong>EXTRALAX NIGERIA LIMITED</strong> tends to provide “turn-key" solutions to clients’ needs supported by an array of current project management, engineering design and construction support/installation services.

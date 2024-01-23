@@ -11,8 +11,8 @@ const Hero = () => {
 
     return(
         <div className=''>
-            <div className='bg-green w-screen' data-aos="zoom-in" data-aos-duration="1500">
-                <img src={Img1} alt="" className='opacity-30 w-full'/>
+            <div className='bg-green w-full h-56' data-aos="zoom-in" data-aos-duration="1500">
+                <img src={Img1} alt="" className='opacity-30 w-full h-56 object-cover'/>
             </div>
         </div>
     )

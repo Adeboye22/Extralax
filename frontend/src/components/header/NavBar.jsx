@@ -26,7 +26,6 @@ const NavLinks = () => {
                     <li><NavLink to="/" style={activeNav}>Home</NavLink></li>
                     <li><NavLink to="services" style={activeNav}>Services</NavLink></li>
                     <li><NavLink to="portfolio" style={activeNav}>Portfolio</NavLink></li>
-                    <li><NavLink to="contact" style={activeNav}>Contact Us</NavLink></li>
                 </ul>
             </nav>
         </div>
