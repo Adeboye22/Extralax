@@ -28,28 +28,28 @@ const Homepage = () => {
                         <Hero/>
                     </div>
                 </section>
-                <section data-aos='fade-up' className='sm:px-8'>
+                <section data-aos='fade-up' className='sm:px-8 px-8'>
                     <div className='sm:pb-4 text-altBlack pb-12 px-4'>
                         <h1 className='sm:pb-8 sm:font-bold md:text-3xl md:pb-8 md:font-bold text-3xl pb-8'>Welcome To Extralax Nigeria Limited</h1>
                         <span className='sm:text-xl md:text-lg'>EXTRALAX NIGERIA LIMITED is a wholly indigenous oil service company, committed to delivering innovative and reliable solutions to meet the diverse needs of the energy sector. With a focus on excellence, safety, and sustainability, we offer a comprehensive suite of services, including well head servicing, wireline operations, and HVAC (Heating, Ventilation, and Air Conditioning) solutions.</span>
                     </div>
                     <div className='sm:pb-4 text-altBlack pb-8 px-4'>
                         <h1 className='sm:pb-8 sm:font-bold md:text-3xl md:pb-8 md:font-bold text-3xl pb-8'>Our Uniqueness</h1>
-                        <ul>
+                        <ul className='sm:text-xl text-xl flex flex-col gap-8'>
                             <li>
-                                Innovation and Technology:
+                               1. Innovation and Technology:
                                 We leverage the latest technologies and industry best practices to deliver innovative solutions that improve efficiency, reduce downtime, and enhance overall performance.
                             </li>
                             <li>
-                                Safety and Environmental Stewardship:
+                               2. Safety and Environmental Stewardship:
                                 Horizon Energy Solutions prioritizes the safety of our personnel and the environments in which we operate. Our commitment to environmental stewardship is reflected in sustainable practices throughout our operations.
                             </li>
                             <li>
-                                Global Presence:
+                               3. Global Presence:
                                 With a global reach, we serve clients in diverse geographical locations. Our international presence allows us to adapt to local needs while maintaining consistent quality and reliability.
                             </li>
                             <li>
-                                Customer-Centric Approach:
+                                4. Customer-Centric Approach:
                                 We understand the unique challenges of our clients and are dedicated to providing tailored solutions that meet their specific requirements. Our customer-centric approach fosters strong, long-term partnerships.
                             </li>
                         </ul>

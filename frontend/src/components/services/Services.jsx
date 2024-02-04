@@ -6,13 +6,19 @@ import Img6 from '../../assets/Img6.jpg';
 
 const Services = () => {
     return (
-        <div className='sm:px-8 flex flex-col gap-12 bg-white text-xl text-altBlack'>
-            <section className='pt-8 text-justify'>
+        <div className='sm:px-8 px-8 flex flex-col gap-12 bg-white text-xl text-altBlack'>
+            <section className='flex bg-green rounded'>
+                <img src={Img2} alt="" className='sm:h-56 sm:w-full  opacity-60 h-72 w-full object-cover'/>
+            </section>
+            <section className='text-left'>
                 <span>
                     <strong>EXTRALAX NIGERIA LIMITED</strong> tends to provide “turn-key" solutions to clients’ needs supported by an array of current project management, engineering design and construction support/installation services.
                 </span>
             </section>
-            <section>
+            <section className='sm:py-8 py-8 flex self-center'>     
+                <img src={Img3} alt="" />
+            </section>
+            <section className='text-left'>
                 <p>We offer the following comprehensive services:</p>
                 <ul className=' pt-4 flex flex-col gap-4'>
                     <li>- Servicing of Oil well head</li>
@@ -25,11 +31,9 @@ const Services = () => {
                     <li>- Project management.</li>
                 </ul>
             </section>
-            <section className='flex flex-col gap-8 pb-12'>
-                <img src={Img2} alt="" />
-                <img src={Img3} alt="" />
-                <img src={Img4} alt="" />
-                <img src={Img6} alt="" />
+            <section className='sm:flex sm:flex-col sm:gap-8 flex flex-row gap-8 pb-12 self-center'>
+                <img src={Img4} alt="" className='h-96'/>
+                <img src={Img6} alt="" className='h-96'/>
             </section>
         </div>
     )
