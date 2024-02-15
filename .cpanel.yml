@@ -1,0 +1,6 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/extralax/frontend/public
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp main.jsx $DEPLOYPATH
