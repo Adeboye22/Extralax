@@ -2,11 +2,5 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/extralax/public_html
- - /bin/cp -R node_modules $DEPLOYPATH
- - /bin/cp -R public $DEPLOYPATH
- - /bin/cp -R src $DEPLOYPATH
- - /bin/cp -R package.json $DEPLOYPATH
- - /bin/cp postcss.config.js $DEPLOYPATH
- - /bin/cp tailwindcss $DEPLOYPATH
- - /bin/cp vite.config.js $DEPLOYPATH
- - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp /frontend/index.html $DEPLOYPATH
+ - /bin/cp /frontend/* $DEPLOYPATH
