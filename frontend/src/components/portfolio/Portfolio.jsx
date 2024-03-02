@@ -19,6 +19,31 @@ const Portfolio = () => {
                     In charge of Slickline Operation, Well head Maintenance and Marine Offshore / Swamp operations. Ensuring jobs are done according to Oil field standards.
                 </p>
             </div>
+            <div>
+                <h1 className='sm:text-2xl pb-4'>
+                    <strong>Halliburton Energy Services</strong> (October 2015 - February 2016)
+                </h1>
+                <p>
+                    Started up a new project for ConocoPhilips in Dakar Senegal.
+                </p>
+            </div>
+            <div>
+                <h1 className='sm:text-2xl pb-4'>
+                    <strong>Halliburton Energy Services</strong> (January 2015 - October 2015)
+                </h1>
+                <p>
+                    Helped in kick-starting of a new contract for Perenco Gabon. Mentoring employees and nationals.
+                </p>
+            </div>
+            <div>
+                <h1 className='sm:text-2xl pb-4'>
+                    <strong>Halliburton Energy Services</strong> (September 2012 - January 2015)
+                </h1>
+                <p>
+                    The job description include;
+                    
+                </p>
+            </div>
         </div>
     )
 }
